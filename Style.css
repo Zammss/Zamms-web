@@ -1,0 +1,77 @@
+/* Pengaturan dasar untuk seluruh halaman */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e0f7fa; /* Biru muda */
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Gaya untuk bagian header */
+header {
+    background-color: #00796b; /* Hijau kebiruan gelap */
+    color: white;
+    padding: 1.5rem 0;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.8em;
+    letter-spacing: 1px;
+}
+
+/* Gaya untuk konten utama */
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 25px auto;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    margin-bottom: 30px;
+    padding: 18px;
+    border-bottom: 1px dashed #b2dfdb; /* Garis putus-putus */
+}
+
+section:last-child {
+    border-bottom: none; /* Hapus garis putus-putus di bagian terakhir */
+}
+
+h2 {
+    color: #004d40; /* Hijau kebiruan sangat gelap */
+    border-left: 6px solid #00796b;
+    padding-left: 12px;
+    margin-bottom: 20px;
+}
+
+p {
+    margin-bottom: 12px;
+    text-align: justify;
+}
+
+ul {
+    list-style: square inside; /* Simbol kotak */
+    padding-left: 25px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+/* Gaya untuk bagian footer */
+footer {
+    text-align: center;
+    padding: 25px;
+    margin-top: 40px;
+    background-color: #263238; /* Abu-abu sangat gelap */
+    color: #cfd8dc; /* Abu-abu muda */
+    font-size: 0.95em;
+    border-top: 3px solid #00796b;
+}
+</commit>/ add style.css
